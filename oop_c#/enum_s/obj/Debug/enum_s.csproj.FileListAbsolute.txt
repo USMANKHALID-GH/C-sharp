@@ -1,0 +1,6 @@
+A:\PROGRAMMING\C sharp\oop_c#\enum_s\bin\Debug\enum_s.exe
+A:\PROGRAMMING\C sharp\oop_c#\enum_s\bin\Debug\enum_s.pdb
+A:\PROGRAMMING\C sharp\oop_c#\enum_s\obj\Debug\enum_s.csproj.AssemblyReference.cache
+A:\PROGRAMMING\C sharp\oop_c#\enum_s\obj\Debug\enum_s.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\enum_s\obj\Debug\enum_s.exe
+A:\PROGRAMMING\C sharp\oop_c#\enum_s\obj\Debug\enum_s.pdb
