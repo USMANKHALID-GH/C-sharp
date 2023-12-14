@@ -14,7 +14,12 @@ namespace classes
             var student= new Student(1,"usman", "khalid");
             
             Console.WriteLine(student.getFirstName());
-            Console.ReadLine();
+            Animal animal = new Animal();
+            animal.NumberOfAnimal1();
+            Animal animal1 = new Animal("CAT");
+            
+            animal1.NumberOfAnimal1();
+
         }
     }
 }
