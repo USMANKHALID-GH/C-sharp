@@ -1,0 +1,14 @@
+A:\PROGRAMMING\C sharp\oop_c#\arrays\bin\Debug\net8.0\arrays.exe
+A:\PROGRAMMING\C sharp\oop_c#\arrays\bin\Debug\net8.0\arrays.deps.json
+A:\PROGRAMMING\C sharp\oop_c#\arrays\bin\Debug\net8.0\arrays.runtimeconfig.json
+A:\PROGRAMMING\C sharp\oop_c#\arrays\bin\Debug\net8.0\arrays.dll
+A:\PROGRAMMING\C sharp\oop_c#\arrays\bin\Debug\net8.0\arrays.pdb
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.dll
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\refint\arrays.dll
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.pdb
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\arrays.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\oop_c#\arrays\obj\Debug\net8.0\ref\arrays.dll

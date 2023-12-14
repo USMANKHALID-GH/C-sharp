@@ -1,0 +1,7 @@
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\bin\Debug\oop_c#.exe.config
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\bin\Debug\oop_c#.exe
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\bin\Debug\oop_c#.pdb
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\obj\Debug\oop_c#.csproj.AssemblyReference.cache
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\obj\Debug\oop_c#.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\obj\Debug\oop_c#.exe
+A:\PROGRAMMING\C sharp\oop_c#\oop_c#\obj\Debug\oop_c#.pdb

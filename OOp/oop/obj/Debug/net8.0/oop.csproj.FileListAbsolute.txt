@@ -1,0 +1,11 @@
+A:\PROGRAMMING\C sharp\oop\oop\bin\Debug\net8.0\oop.deps.json
+A:\PROGRAMMING\C sharp\oop\oop\bin\Debug\net8.0\oop.dll
+A:\PROGRAMMING\C sharp\oop\oop\bin\Debug\net8.0\oop.pdb
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\oop.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\oop.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\oop.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\oop.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\oop.dll
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\refint\oop.dll
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\oop.pdb
+A:\PROGRAMMING\C sharp\oop\oop\obj\Debug\net8.0\ref\oop.dll

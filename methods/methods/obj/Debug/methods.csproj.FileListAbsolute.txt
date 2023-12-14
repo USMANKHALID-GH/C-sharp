@@ -1,0 +1,7 @@
+A:\PROGRAMMING\C sharp\methods\methods\bin\Debug\methods.exe.config
+A:\PROGRAMMING\C sharp\methods\methods\bin\Debug\methods.exe
+A:\PROGRAMMING\C sharp\methods\methods\bin\Debug\methods.pdb
+A:\PROGRAMMING\C sharp\methods\methods\obj\Debug\methods.csproj.AssemblyReference.cache
+A:\PROGRAMMING\C sharp\methods\methods\obj\Debug\methods.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\methods\methods\obj\Debug\methods.exe
+A:\PROGRAMMING\C sharp\methods\methods\obj\Debug\methods.pdb

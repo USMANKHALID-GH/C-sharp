@@ -1,0 +1,7 @@
+A:\PROGRAMMING\C sharp\oop_c#\encaps\bin\Debug\encaps.exe.config
+A:\PROGRAMMING\C sharp\oop_c#\encaps\bin\Debug\encaps.exe
+A:\PROGRAMMING\C sharp\oop_c#\encaps\bin\Debug\encaps.pdb
+A:\PROGRAMMING\C sharp\oop_c#\encaps\obj\Debug\encaps.csproj.AssemblyReference.cache
+A:\PROGRAMMING\C sharp\oop_c#\encaps\obj\Debug\encaps.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\encaps\obj\Debug\encaps.exe
+A:\PROGRAMMING\C sharp\oop_c#\encaps\obj\Debug\encaps.pdb

@@ -1,0 +1,7 @@
+A:\PROGRAMMING\C sharp\oop_c#\classes\bin\Debug\classes.exe.config
+A:\PROGRAMMING\C sharp\oop_c#\classes\bin\Debug\classes.exe
+A:\PROGRAMMING\C sharp\oop_c#\classes\bin\Debug\classes.pdb
+A:\PROGRAMMING\C sharp\oop_c#\classes\obj\Debug\classes.csproj.AssemblyReference.cache
+A:\PROGRAMMING\C sharp\oop_c#\classes\obj\Debug\classes.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\classes\obj\Debug\classes.exe
+A:\PROGRAMMING\C sharp\oop_c#\classes\obj\Debug\classes.pdb
