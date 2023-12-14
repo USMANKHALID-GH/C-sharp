@@ -41,6 +41,9 @@ namespace methods
             Console.WriteLine(newString.CompareTo("usman"));
             Console.WriteLine(newString.ToUpperInvariant());
             Console.WriteLine(string.Equals(newString, "usmaN",StringComparison.CurrentCultureIgnoreCase));
+            
+            Console.WriteLine("Any Digit: {0}",newString.Any(char.IsDigit));
+            Console.WriteLine("Any Number: {0}",newString.Any(char.IsNumber));
 
 
 
@@ -87,7 +90,7 @@ namespace methods
             OutMethod(45,out solution);
             Console.WriteLine("solution: {0}", solution);
             //RandomNumber();
-          //  DealingWithString();
+            DealingWithString();
             //DealingWithDecimal();
             float f = 5.1f;
             //Console.WriteLine($"FLOAT {f}");
