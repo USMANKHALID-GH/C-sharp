@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\PROGRAMMING\\C sharp\\oop\\oop\\oop.csproj": {}
+    "A:\\PROGRAMMING\\C sharp\\OOp\\oop\\oop.csproj": {}
   },
   "projects": {
-    "A:\\PROGRAMMING\\C sharp\\oop\\oop\\oop.csproj": {
+    "A:\\PROGRAMMING\\C sharp\\OOp\\oop\\oop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\PROGRAMMING\\C sharp\\oop\\oop\\oop.csproj",
+        "projectUniqueName": "A:\\PROGRAMMING\\C sharp\\OOp\\oop\\oop.csproj",
         "projectName": "oop",
-        "projectPath": "A:\\PROGRAMMING\\C sharp\\oop\\oop\\oop.csproj",
+        "projectPath": "A:\\PROGRAMMING\\C sharp\\OOp\\oop\\oop.csproj",
         "packagesPath": "C:\\Users\\USMAN KHALID\\.nuget\\packages\\",
-        "outputPath": "A:\\PROGRAMMING\\C sharp\\oop\\oop\\obj\\",
+        "outputPath": "A:\\PROGRAMMING\\C sharp\\OOp\\oop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USMAN KHALID\\AppData\\Roaming\\NuGet\\NuGet.Config",
