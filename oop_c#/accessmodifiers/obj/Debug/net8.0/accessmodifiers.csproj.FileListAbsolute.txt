@@ -1,0 +1,15 @@
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\bin\Debug\net8.0\accessmodifiers.exe
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\bin\Debug\net8.0\accessmodifiers.deps.json
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\bin\Debug\net8.0\accessmodifiers.runtimeconfig.json
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\bin\Debug\net8.0\accessmodifiers.dll
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\bin\Debug\net8.0\accessmodifiers.pdb
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.sourcelink.json
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.dll
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\refint\accessmodifiers.dll
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.pdb
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\accessmodifiers.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\oop_c#\accessmodifiers\obj\Debug\net8.0\ref\accessmodifiers.dll
