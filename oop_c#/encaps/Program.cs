@@ -10,8 +10,9 @@ namespace encaps
     {
         static void Main(string[] args)
         {
+       
 
-            var mySchool = new School {
+        var mySchool = new School {
                 Name = "Firat",
                 Location = "ELzig",
                 Capacity = 1000000,
