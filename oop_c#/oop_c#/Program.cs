@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace oop_c_
 {
@@ -22,7 +18,8 @@ namespace oop_c_
         private char sex;
         private int age;
         private string hairColor;
-
+        private readonly int id=0;
+        
         public Student(string firstName, string secondName, char sex, int age, string hairColor)
         {
             this.firstName = firstName;
