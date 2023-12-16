@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace oop_c_
 {
@@ -8,6 +9,10 @@ namespace oop_c_
         {
             Student student = new Student("usman", "khalid", 'M', 45, "Black");
             Console.WriteLine(student.ToString());
+            StringBuilders.StringBuilder();
+
+            StudentService studentService = new StudentServiceImp();
+            Console.WriteLine(studentService.GetStudentId());
         }
     }
 
