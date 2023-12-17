@@ -21,11 +21,14 @@ namespace  packageName
 
             Student student = new Student();
             student.DoSomething();
+            
+            Student1 student1= new Student1();
+            student1.DoSomething();
 
         }
     }
 
-   internal class  Myclass
+    class  Myclass
     {
         private string _firstName;
         private string _lastName;

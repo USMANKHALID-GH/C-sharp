@@ -6,10 +6,21 @@ namespace Jeeed
     {
         private int id;
 
-        public void DoSomething()
+        public virtual void DoSomething()
         {
             Myclass myclass = new Myclass();
             Myclass.printSomething1();
         }
+    }
+
+    class  Student1:Student
+    {
+        
+        public override void DoSomething()
+        {
+         Console.WriteLine("skfdskafklsdlflkslk");
+        }
+
+     
     }
 }

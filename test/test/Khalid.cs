@@ -1,6 +1,15 @@
-﻿namespace packageName;
-
-public class Khalid
+﻿namespace packageName
 {
+    public class Khalid
+    {
+    
+    }
+
+
+    class MyClass
+    {
+        
+    }
     
 }
+
