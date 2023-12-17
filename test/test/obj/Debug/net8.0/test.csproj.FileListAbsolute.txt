@@ -1,0 +1,15 @@
+A:\PROGRAMMING\C sharp\test\test\bin\Debug\net8.0\test.exe
+A:\PROGRAMMING\C sharp\test\test\bin\Debug\net8.0\test.deps.json
+A:\PROGRAMMING\C sharp\test\test\bin\Debug\net8.0\test.runtimeconfig.json
+A:\PROGRAMMING\C sharp\test\test\bin\Debug\net8.0\test.dll
+A:\PROGRAMMING\C sharp\test\test\bin\Debug\net8.0\test.pdb
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.sourcelink.json
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.dll
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\refint\test.dll
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.pdb
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\test.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\test\test\obj\Debug\net8.0\ref\test.dll
