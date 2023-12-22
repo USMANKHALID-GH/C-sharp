@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "accessmodifiers", "accessmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datastructure", "datastructure\datastructure.csproj", "{F5E3970C-D091-47A6-9CF7-58DCDFFFAA61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\interfaces.csproj", "{882122F4-5431-4456-B8D1-575BE56D6E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{F5E3970C-D091-47A6-9CF7-58DCDFFFAA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E3970C-D091-47A6-9CF7-58DCDFFFAA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5E3970C-D091-47A6-9CF7-58DCDFFFAA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882122F4-5431-4456-B8D1-575BE56D6E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882122F4-5431-4456-B8D1-575BE56D6E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882122F4-5431-4456-B8D1-575BE56D6E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882122F4-5431-4456-B8D1-575BE56D6E34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

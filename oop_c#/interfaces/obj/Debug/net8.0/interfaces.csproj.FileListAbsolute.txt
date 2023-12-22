@@ -1,0 +1,15 @@
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\bin\Debug\net8.0\interfaces.exe
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\bin\Debug\net8.0\interfaces.deps.json
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\bin\Debug\net8.0\interfaces.runtimeconfig.json
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\bin\Debug\net8.0\interfaces.dll
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\bin\Debug\net8.0\interfaces.pdb
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.sourcelink.json
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.dll
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\refint\interfaces.dll
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.pdb
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\interfaces.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\oop_c#\interfaces\obj\Debug\net8.0\ref\interfaces.dll
