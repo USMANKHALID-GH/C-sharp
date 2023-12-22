@@ -17,6 +17,7 @@ namespace oop_c_
             
             Usman usman = new Usman();
             usman.getHairColor("black", "white", "red", "blue", "green");
+            Console.Read();
         }
     }
 

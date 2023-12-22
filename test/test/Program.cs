@@ -13,6 +13,7 @@ namespace  packageName
 
            
             Myclass.printSomething1();
+            Console.WriteLine();
             
             
             Console.WriteLine(myclass.ToString());

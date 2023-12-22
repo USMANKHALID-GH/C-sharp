@@ -20,7 +20,23 @@ namespace Jeeed
         {
          Console.WriteLine("skfdskafklsdlflkslk");
         }
+        
+        public void DoSomething2()
+        {
+       
+        }
 
-     
+        public int U(int x, int y)
+        {
+            return x + y;
+        }
+        
     }
+    
+    
+    
+    
+    
+    
+    
 }
