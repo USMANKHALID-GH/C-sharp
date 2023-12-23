@@ -4,11 +4,11 @@ namespace Implementation.model;
 
 public class StudentModel
 {
-    private readonly int id;
-    private string Name { get; set; }
-    private int Age { get; set; }
-    private string Email { get; set; }
-    private string Address { get; set; }
+    public readonly int id;
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string Email { get; set; }
+    public string Address { get; set; }
 
     public  StudentModel()
     {
@@ -26,5 +26,10 @@ public class StudentModel
     public int Id
     {
         get => Id;
+    }
+
+    public override string ToString()
+    {
+        return "Id: " + id + ", Name: " + Name + ", Age: " + Age + ", Email: " + Email + ", Address: " + Address;
     }
 }

@@ -4,14 +4,14 @@ namespace Service
 {
     public interface StudentService
     {
-        string GetStudentId();
+        
         void saveStudent(StudentModel studentModel);
         
         List<StudentModel> getAllStudents();
         
         StudentModel  getStudentById(int id);
         
-        void updateStudent(StudentModel studentModel);
+        void updateStudent(StudentModel studentModel, int id);
         
         void deleteStudent(int id);
         

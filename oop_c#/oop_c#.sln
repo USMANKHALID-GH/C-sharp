@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datastructure", "datastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\interfaces.csproj", "{882122F4-5431-4456-B8D1-575BE56D6E34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dealing_with_null", "dealing_with_null\dealing_with_null.csproj", "{DFEF74BE-268D-4651-8E06-C24DC8BE5A66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{882122F4-5431-4456-B8D1-575BE56D6E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{882122F4-5431-4456-B8D1-575BE56D6E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{882122F4-5431-4456-B8D1-575BE56D6E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEF74BE-268D-4651-8E06-C24DC8BE5A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEF74BE-268D-4651-8E06-C24DC8BE5A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEF74BE-268D-4651-8E06-C24DC8BE5A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEF74BE-268D-4651-8E06-C24DC8BE5A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

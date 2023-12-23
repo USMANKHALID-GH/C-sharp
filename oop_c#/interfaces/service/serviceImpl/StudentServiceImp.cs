@@ -1,42 +1,51 @@
-﻿using Implementation.model;
+﻿using System.Data;
+using Implementation.model;
 
 namespace Service.serviceImpl;
 
 public class StudentServiceImp: StudentService{
     
     private List<StudentModel> list = new List<StudentModel>();
-    public string GetStudentId()
-    {
-        throw new NotImplementedException();
-    }
+    
+   
 
     public void saveStudent(StudentModel studentModel)
     {
-        throw new NotImplementedException();
+        list.Add(studentModel);
     }
 
     public List<StudentModel> getAllStudents()
     {
-        throw new NotImplementedException();
+        return list;
     }
 
     public StudentModel getStudentById(int id)
     {
-        throw new NotImplementedException();
+        var student=list.Where(s=>s.id.Equals(id)).First();
+        return student;
     }
 
-    public void updateStudent(StudentModel studentModel)
+    public void updateStudent(StudentModel studentModel, int id)
     {
-        throw new NotImplementedException();
+        list.Remove(findById(id));
+        list.Add(studentModel);
     }
 
     public void deleteStudent(int id)
     {
-        throw new NotImplementedException();
+        StudentModel studentModel = findById(id);
+        list.Remove(studentModel);
     }
     
     private bool checkDuplicate(string email)
     {
-        throw new NotImplementedException(); 
+        var student=list.Where(s=>s.Email.Equals(email)).First();
+        
+        return student != null;
+    }
+
+    private StudentModel findById(int id)
+    {
+        return list.Where(s=>s.id.Equals(id)).First();
     }
 }
