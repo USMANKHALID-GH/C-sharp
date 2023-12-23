@@ -1,0 +1,15 @@
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.sourcelink.json
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\bin\Debug\net8.0\dealing_with_null.exe
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\bin\Debug\net8.0\dealing_with_null.deps.json
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\bin\Debug\net8.0\dealing_with_null.runtimeconfig.json
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\bin\Debug\net8.0\dealing_with_null.dll
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\bin\Debug\net8.0\dealing_with_null.pdb
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.dll
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\refint\dealing_with_null.dll
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.pdb
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\dealing_with_null.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\oop_c#\dealing_with_null\obj\Debug\net8.0\ref\dealing_with_null.dll
