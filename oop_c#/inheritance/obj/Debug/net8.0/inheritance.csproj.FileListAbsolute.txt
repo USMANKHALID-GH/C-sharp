@@ -1,0 +1,15 @@
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\bin\Debug\net8.0\inheritance.exe
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\bin\Debug\net8.0\inheritance.deps.json
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\bin\Debug\net8.0\inheritance.runtimeconfig.json
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\bin\Debug\net8.0\inheritance.dll
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\bin\Debug\net8.0\inheritance.pdb
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.sourcelink.json
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.dll
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\refint\inheritance.dll
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.pdb
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\inheritance.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\oop_c#\inheritance\obj\Debug\net8.0\ref\inheritance.dll
