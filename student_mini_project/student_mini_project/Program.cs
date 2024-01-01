@@ -6,6 +6,10 @@ namespace MainProject
 {
     public class Program
     {
+        
+        private static StudentService studentService = new StudentServiceImpl();
+        private static DepartmentService departmentService=new DepartmentServiceImpl();
+       private static CourseService courseService=new CourseServiceImpl();
         public static void Main(string[] args)
         {
             Console.WriteLine("WE ARE ABOUT TO START!!!!!!!!!!!!!!!!!!!!!!!!!!/n");
@@ -21,6 +25,8 @@ namespace MainProject
                     case "2":
                         StudentWork();
                         break;
+                    case "3": CoursesWork();
+                        break;
                     default:
                         throw new Exception("Invalid input");
 
@@ -32,14 +38,15 @@ namespace MainProject
 
         public static void DepartmentWork()
         {
-            DepartmentService departmentService = new DepartmentServiceImpl();
+           
 
             string expression;
+            Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5: EXIT");
+            expression = Console.ReadLine();
 
             do
             {
-                Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5: EXIT");
-                expression = Console.ReadLine();
+               
                 switch (expression)
                 {
                     case "1":
@@ -99,6 +106,8 @@ namespace MainProject
                         break;
 
                 }
+                Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5: EXIT");
+                expression = Console.ReadLine();
 
             } while (!expression.Equals("5", StringComparison.OrdinalIgnoreCase));
 
@@ -106,8 +115,7 @@ namespace MainProject
 
         public static void StudentWork()
         {
-            StudentService studentService = new StudentServiceImpl();
-            DepartmentService departmentService=new DepartmentServiceImpl();
+      
             string expression;
 
             do
@@ -172,13 +180,14 @@ namespace MainProject
                         break;
                     case "6":
                     {
-                        Console.WriteLine("Enter the id");
+                        Console.WriteLine("Enter the student id");
                         var id = Console.ReadLine();
                         Console.WriteLine("Enter the courses id");
                         var coursesId = Console.ReadLine();
                         var coursesList = new List<Courses>();
-                      
+                        coursesList.Add(AddCourse(int.Parse(coursesId)));
                         studentService.AssignCourse(coursesList, int.Parse(id));
+                        Console.WriteLine("Course Assigned");
                         
                     }
                         break;
@@ -194,6 +203,76 @@ namespace MainProject
 
             } while (!expression.Equals("5", StringComparison.OrdinalIgnoreCase));
 
+        }
+
+        public static void CoursesWork()
+        {
+            string expression;
+            do
+            {
+                Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5: EXIT");
+                expression = Console.ReadLine();
+                switch (expression)
+                {
+                    case "1":
+                    {
+                        Console.WriteLine("Enter the name");
+                        var name = Console.ReadLine();
+                        Console.WriteLine("Enter the id");
+                        var id = Console.ReadLine();
+                        Console.WriteLine("Enter the department id");
+                        var departmentId = Console.ReadLine();
+                        Console.WriteLine("Enter the credit");
+                        var credit = Console.ReadLine();
+                        Courses course = new Courses(int.Parse(id), name, departmentService.getDepartmentById(int.Parse(departmentId)), credit);
+                        courseService.saveCourse(course);
+                        foreach (var VARIABLE in courseService.getAllCourses())
+                        {
+                            Console.WriteLine(VARIABLE.ToString());
+                        }
+                        break;
+                    }
+                    case "2":
+                    {
+                        Console.WriteLine("Enter the id");
+                        var id = Console.ReadLine();
+                        var course = courseService.getCourseById(int.Parse(id));
+                        Console.WriteLine(course.ToString());
+                        break;
+                    }
+                    case "3":
+                    {
+                        var id = Console.ReadLine();
+                        var name = Console.ReadLine();
+                        var departmentId = Console.ReadLine();
+                        var credit = Console.ReadLine();
+                        Courses course = new Courses(int.Parse(id), name, departmentService.getDepartmentById(int.Parse(departmentId)), credit);
+                        courseService.updateCourse(course, int.Parse(id));
+                        Console.WriteLine("Updated");
+                        break;
+                    }
+                    case "4":
+                    {
+                        var id = Console.ReadLine();
+                        courseService.deleteCourse(int.Parse(id));
+                        Console.WriteLine("Deleted");
+                        break;
+                    }
+                    default:
+                    {
+                        foreach (var VARIABLE in courseService.getAllCourses())
+                        {
+                            Console.WriteLine(VARIABLE.ToString());
+                        }
+                        break;
+                    }
+                }
+            }while(!expression.Equals("5", StringComparison.OrdinalIgnoreCase));
+        }
+
+        private static Courses  AddCourse(int id)
+        {
+            return courseService.getCourseById(id);
         }
     }
 }
