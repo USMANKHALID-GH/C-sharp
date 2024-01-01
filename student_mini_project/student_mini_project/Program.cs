@@ -10,10 +10,11 @@ namespace MainProject
         private static StudentService studentService = new StudentServiceImpl();
         private static DepartmentService departmentService=new DepartmentServiceImpl();
        private static CourseService courseService=new CourseServiceImpl();
+       private static TeacherService teacherService=new TeacherServiceImpl();
         public static void Main(string[] args)
         {
             Console.WriteLine("WE ARE ABOUT TO START!!!!!!!!!!!!!!!!!!!!!!!!!!/n");
-            Console.WriteLine("1: FOR DEPARTMENT 2: FOR STUDENT 3: FOR TEACHER 4: EXIT");
+            Console.WriteLine("1: FOR DEPARTMENT 2: FOR STUDENT 3: COURSES 5: TEACHER 4: EXIT");
             var expression = Console.ReadLine();
             do
             {
@@ -26,6 +27,8 @@ namespace MainProject
                         StudentWork();
                         break;
                     case "3": CoursesWork();
+                        break;
+                    case "5": TeacherWork();
                         break;
                     default:
                         throw new Exception("Invalid input");
@@ -270,6 +273,69 @@ namespace MainProject
             }while(!expression.Equals("5", StringComparison.OrdinalIgnoreCase));
         }
 
+        public static void TeacherWork()
+        {
+            string expression;
+            do
+            {
+                Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5: EXIT");  
+                expression = Console.ReadLine();
+                switch (expression)
+                {
+                    case "1":
+                    {
+                        Console.WriteLine("Enter the name");
+                        var name = Console.ReadLine();
+                        Console.WriteLine("Enter the id");
+                        var id = Console.ReadLine();
+                        Console.WriteLine("Enter the age");
+                        var age = Console.ReadLine();
+                        Console.WriteLine("Enter the email");
+                        var email = Console.ReadLine();
+                        Console.WriteLine("Enter the department id");
+                        var departmentId = Console.ReadLine();
+                        Teacher teacher = new Teacher(int.Parse(id), name, int.Parse(age), email, 
+                            new List<Department> { departmentService.getDepartmentById(int.Parse(departmentId)) });
+                        
+                        teacherService.saveTeacher(teacher);
+                        foreach (var VARIABLE in teacherService.getAllTeachers())
+                        {
+                            Console.WriteLine(VARIABLE.ToString());
+                        }
+                        
+                        break;
+                    }
+                    case "2":
+                    {
+                        Console.WriteLine("Enter the id");
+                        var id = Console.ReadLine();
+                        var teacher = teacherService.getTeacherById(int.Parse(id));
+                        Console.WriteLine(teacher.ToString());
+                        break;
+                    }
+                    case "3":
+                    {
+                        break;
+                    }
+                    case "4":
+                    {
+                        var id = Console.ReadLine();
+                        teacherService.deleteTeacher(int.Parse(id));
+                        Console.WriteLine("Deleted");
+                        break;
+                    }
+                    default:
+                    {
+                        foreach (var VARIABLE in teacherService.getAllTeachers())
+                        {
+                            Console.WriteLine(VARIABLE.ToString());
+                        }
+                        break;
+                        
+                    }
+                }
+            }while(!expression.Equals("5", StringComparison.OrdinalIgnoreCase));
+        }
         private static Courses  AddCourse(int id)
         {
             return courseService.getCourseById(id);

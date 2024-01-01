@@ -1,0 +1,15 @@
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\bin\Debug\net8.0\student_mini_project.exe
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\bin\Debug\net8.0\student_mini_project.deps.json
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\bin\Debug\net8.0\student_mini_project.runtimeconfig.json
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\bin\Debug\net8.0\student_mini_project.dll
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\bin\Debug\net8.0\student_mini_project.pdb
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.GeneratedMSBuildEditorConfig.editorconfig
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.AssemblyInfoInputs.cache
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.AssemblyInfo.cs
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.csproj.CoreCompileInputs.cache
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.sourcelink.json
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.dll
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\refint\student_mini_project.dll
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.pdb
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\student_mini_project.genruntimeconfig.cache
+A:\PROGRAMMING\C sharp\student_mini_project\student_mini_project\obj\Debug\net8.0\ref\student_mini_project.dll
