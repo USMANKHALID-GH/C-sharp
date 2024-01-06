@@ -3,8 +3,9 @@ using MainProject.model;
 public class TeacherServiceImpl: TeacherService
 {
     
-    private List<Teacher> _teachers = new();
-    
+    private static List<Teacher> _teachers = new();
+
+    private CourseService CourseService = new CourseServiceImpl();
     
     public void saveTeacher(Teacher teacher)
     {
@@ -12,6 +13,22 @@ public class TeacherServiceImpl: TeacherService
         _teachers.Add(teacher);
     }
     
+    public void assignCourseToTeacher(int teacherId, int courseId)
+    {
+        Teacher teacher = getTeacherById(teacherId);
+        Courses course = CourseService.getCourseById(courseId);
+        teacher.Courses.Add(course);
+        _teachers.Remove(teacher);
+        _teachers.Add(teacher);
+    }
+
+
+    public void unAssignCourseToTeacher(int teacherId, int courseId)
+    {
+        Teacher teacher = getTeacherById(teacherId);
+        Courses course = CourseService.getCourseById(courseId);
+        teacher.Courses.Remove(course);
+    }
     public Teacher getTeacherById(int id)
     {
         return GetById(id);

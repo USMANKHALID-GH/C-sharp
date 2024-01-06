@@ -278,7 +278,7 @@ namespace MainProject
             string expression;
             do
             {
-                Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5: EXIT");  
+                Console.WriteLine("1: SAVE  2: GET 3: UPDATE 4: DELETE: 5:  EXIT 6: ASSIGN COURSE");  
                 expression = Console.ReadLine();
                 switch (expression)
                 {
@@ -322,6 +322,17 @@ namespace MainProject
                         var id = Console.ReadLine();
                         teacherService.deleteTeacher(int.Parse(id));
                         Console.WriteLine("Deleted");
+                        break;
+                    }
+
+                    case "6":
+                    {
+                        Console.WriteLine("Enter the teacher id");
+                        var teacherId = Console.ReadLine();
+                        Console.WriteLine("Enter the course id");
+                        var courseId = Console.ReadLine();
+                        teacherService.assignCourseToTeacher(int.Parse(teacherId), int.Parse(courseId));
+                        Console.WriteLine("Course Assigned to teacher");
                         break;
                     }
                     default:
