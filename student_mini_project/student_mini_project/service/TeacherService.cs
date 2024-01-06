@@ -8,5 +8,10 @@ public interface TeacherService
     List<Teacher> getAllTeachers();
     void updateTeacher(Teacher teacher, int id);
     void deleteTeacher(int id);
+
+    void assignCourseToTeacher(int teacherId, int courseId);
+
+    void unAssignCourseToTeacher(int teacherId, int courseId);
     
+
 }
